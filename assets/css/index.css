@@ -1,0 +1,19 @@
+body {
+  overflow-x: hidden;
+  margin-top: 5%;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100hv;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
